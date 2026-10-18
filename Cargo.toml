@@ -1,0 +1,10 @@
+[package]
+name = "metanito"
+version = "0.1.0"
+edition = "2021"
+description = "Inspect and strip EXIF metadata from images. Local-only, nothing uploaded."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+kamadak-exif = "0.6"
+img-parts = "0.3"
