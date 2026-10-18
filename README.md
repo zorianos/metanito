@@ -2,15 +2,14 @@
 
 A small, fast CLI to **inspect and strip EXIF metadata** from images.
 
-**Everything runs locally. Nothing is uploaded anywhere.** For a privacy
-tool that is the whole point, so it is a hard design rule, not a feature.
+**Everything runs locally. Nothing is uploaded anywhere.** 
 
 ## Why this exists
 
 Photos from phones and cameras carry embedded metadata (EXIF): often the
 **GPS coordinates** where the shot was taken, the exact timestamp, and the
-device make/model. When you share the *original file* — by email, chat as a
-file attachment, a personal site, a repo — that metadata rides along.
+device make/model. When you share the *original file* by email, chat as a
+file attachment, a personal site, a repo , that metadata rides along.
 
 Note the honest part of the threat model: most large social platforms
 (Instagram, Facebook, X) already strip EXIF on upload. The real exposure is
@@ -57,4 +56,4 @@ cargo build --release
 
 ## License
 
-MIT OR Apache-2.0
+MIT 
